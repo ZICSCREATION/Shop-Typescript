@@ -1,0 +1,25 @@
+START
+Set the total cost to 0
+List the items available in the store and their prices
+Items available:
+name: Apple, price: 200, stock: 10
+name: Chocolate, price: 450, stock: 5
+name: Banana, price: 300, stock: 15
+name: Bread, price: 220, stock: 4
+Ask the customer what they want to buy
+Ask the customer the quantity they want to buy
+Check if the item is available
+If its not available tell them its not available
+If its available then go on to process the order
+If the available stock is less than the quantity the customer wants then tell the customer there isnt enough stock
+Multiply the item’s price by the quantity the customer wants
+Add that amount to the total cost
+Tell the customer the total cost
+Tell the customer to proceed to pay
+If the payment is less than the total cost tell the customer insufficient payment
+If the payment is enough or more than the cost, Subtract the total cost from the payment to calculate the change
+Give the customer the change
+Tell the customer the purchase is succesful
+Subtract the quantity bought from the items in the store
+Update the items available in the store with the new stock levels after subtracting
+END
